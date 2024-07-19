@@ -1,0 +1,29 @@
+Task 2: Write a SQL query to update a record in the 'Users' table and then delete a record from it.
+
+answer :-
+
+
+CREATE TABLE Users (
+    user_id INT PRIMARY KEY,
+    username VARCHAR(50),
+    email VARCHAR(100),
+    age INT
+);
+
+
+INSERT INTO Users (user_id, username, email, age) VALUES
+(1, 'JohnDoe', 'john7360@gmail.com', 25),
+(2, 'JaneDoe', 'jane123@gmail.com', 30),
+(3, 'AliceSmith', 'alice3423@gmail.com', 28),
+(4, 'BobJohnson', 'bob01@gmail.com', 35),
+(5, 'EmilyBrown', 'emily89@gmail.com', 22);
+
+
+-- Update a Record in Users table
+UPDATE Users
+SET age = 32
+WHERE user_id = 2;
+
+-- Delete a Record from Users table
+DELETE FROM Users
+WHERE user_id = 5;

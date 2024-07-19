@@ -1,0 +1,22 @@
+Task 1: Write a simple Python function to add two numbers and then write a pytest test case to test this function.
+
+answer :-
+
+# my_math.py
+
+def add_numbers(a, b):
+    return a + b
+
+# test_my_math.py
+
+import pytest
+
+from my_math import add_numbers
+
+def test_add_numbers():
+    assert add_numbers(2, 3) == 5
+    assert add_numbers(-1, 1) == 0
+    assert add_numbers(0, 0) == 0
+    assert add_numbers(10, -5) == 5
+
+# To run the tests, simply execute pytest in the terminal where your test file is located.

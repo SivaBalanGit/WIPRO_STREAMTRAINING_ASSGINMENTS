@@ -1,0 +1,16 @@
+Task 2: Create a list comprehension in Python to generate squares of even numbers between 1 to 10.
+
+answer :
+
+# Create an empty list to store the squares of even numbers
+squares_of_evens = []
+
+# Iterate through numbers from 1 to 10
+for x in range(1, 11):
+    # Check if the number is even
+    if x % 2 == 0:
+        # If it's even, square it and add to the list
+        squares_of_evens.append(x**2)
+
+# Print the list
+print("Squares of even numbers between 1 and 10:", squares_of_evens)

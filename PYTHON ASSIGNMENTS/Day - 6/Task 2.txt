@@ -1,0 +1,26 @@
+Task 2: Write a pytest test case to check if an exception is raised for a function that divides two numbers.
+
+answer :-
+
+# my_math.py
+
+def divide_numbers(a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
+
+# test_my_math.py
+
+import pytest
+
+from my_math import divide_numbers
+
+def test_divide_numbers():
+    # Test division by a non-zero number
+    assert divide_numbers(6, 2) == 3
+    
+    # Test division by zero, should raise ValueError
+    with pytest.raises(ValueError):
+        divide_numbers(6, 0)
+
+# To run the tests, execute pytest in the terminal where your test file is located.

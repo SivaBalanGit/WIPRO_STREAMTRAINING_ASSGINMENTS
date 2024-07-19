@@ -1,0 +1,19 @@
+# Create an empty dictionary
+personal_info = {}
+
+# Add initial personal information
+personal_info['name'] = 'Krishna Kumar'
+personal_info['age'] = 24
+personal_info['city'] = 'Chennai'
+
+# Print the original dictionary
+print("Original Personal Information:")
+print(personal_info)
+
+# Update personal information
+personal_info['age'] = 25
+personal_info['city'] = 'Mumbai'
+
+# Print the updated dictionary
+print("\nUpdated Personal Information:")
+print(personal_info)

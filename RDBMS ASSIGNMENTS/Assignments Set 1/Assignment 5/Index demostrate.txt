@@ -1,0 +1,22 @@
+
+
+
+Create index :
+
+   CREATE INDEX idx_title ON Books(title);
+
+Faster Data Retrieval: When searching for a book by title, the database engine can use the index to quickly locate the relevant rows without having to scan the entire table.
+
+Efficient Sorting: If you're sorting the results by title, the index allows the database engine to perform the sorting operation more efficiently.
+
+Reduced Disk I/O: The index structure facilitates quick lookups, minimizing the number of disk I/O operations required to fetch the data.
+
+Drop index :
+
+   DROP INDEX idx_title ON Books;
+
+1. Query performance may degrade, especially for queries that involve searching or sorting by the title column.
+
+2. Data retrieval may become slower, as the database engine may need to scan the entire table to locate the relevant rows.
+
+3. Sorting operations may require more resources and time, as the database engine cannot leverage the index for efficient sorting.

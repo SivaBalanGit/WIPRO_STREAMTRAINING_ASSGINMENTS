@@ -1,0 +1,18 @@
+Task 1: Use Python's re module to find all occurrences of the word "Python" in a given text.
+
+answer :
+
+import re
+
+def find_python_occurrences(text):
+    occurrences = re.findall(r'\bPython\b', text)
+    return occurrences
+
+# Example text
+text = "Python is a widely used programming language. Python is known for its simplicity and readability."
+
+# Find all occurrences of "Python" in the text
+python_occurrences = find_python_occurrences(text)
+
+# Print the occurrences
+print("Occurrences of 'Python':", python_occurrences)

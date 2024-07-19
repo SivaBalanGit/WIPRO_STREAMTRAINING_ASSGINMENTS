@@ -1,0 +1,42 @@
+Task 1: Create a Python script to connect to a MySQL database and fetch records from a table.
+
+answer :-
+
+
+import mysql.connector
+
+# Connect to MySQL database
+def connect_to_mysql(host, user, password, database):
+    try:
+        conn = mysql.connector.connect(
+            host=host,
+            user=user,
+            password=password,
+            database=database
+        )
+        print("Connected to MySQL database")
+        return conn
+    except mysql.connector.Error as err:
+        print(f"Error: {err}")
+
+# Fetch records from a table
+def fetch_records(conn, table_name):
+    try:
+        cursor = conn.cursor()
+        cursor.execute(f"SELECT * FROM {table_name}")
+        records = cursor.fetchall()
+        print("Fetched records:")
+        for record in records:
+            print(record)
+    except mysql.connector.Error as err:
+        print(f"Error: {err}")
+    finally:
+        if conn.is_connected():
+            cursor.close()
+            conn.close()
+            print("MySQL connection is closed")
+
+# Example usage
+if __name__ == "__main__":
+    conn = connect_to_mysql("localhost", "username", "password", "database_name")
+    fetch_records(conn, "table_name")

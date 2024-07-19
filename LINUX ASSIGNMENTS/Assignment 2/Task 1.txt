@@ -1,0 +1,69 @@
+Step 1: Initialize a New Git Repository
+
+# Create a new directory for your project
+mkdir my_project
+cd my_project
+
+# Initialize a new Git repository
+git init
+
+
+Step 2: Simulate Making Changes to the Project
+
+# Create and add some text files
+echo "This is file1.txt" > file1.txt
+echo "This is file2.txt" > file2.txt
+
+# Add the files to staging area
+git add file1.txt file2.txt
+
+# Commit the changes
+git commit -m "Initial commit: Added file1.txt and file2.txt"
+
+
+Step 3: Create a New Branch
+
+# Create a new branch
+git branch new_branch
+
+# Switch to the new branch
+git checkout new_branch
+
+
+Step 4: Make Further Changes in the New Branch
+
+# Make changes to file1.txt
+echo "Additional content in file1.txt" >> file1.txt
+
+# Add the modified file to staging area
+git add file1.txt
+
+# Commit the changes
+git commit -m "Added additional content to file1.txt"
+
+
+Step 5: Merge the New Branch into the Main Branch
+
+# Switch back to the main branch
+git checkout main
+
+# Merge the new_branch into the main branch
+git merge new_branch
+
+Step 6: Resolve Merge Conflict 
+
+# Resolve the merge conflicts manually
+
+# Add the resolved files to staging area
+git add file1.txt
+
+# Commit the changes
+git commit -m "Resolved merge conflict"
+
+
+Step 7: View Git History
+
+# View the Git log to see the commit history
+git log --oneline --graph --decorate
+
+

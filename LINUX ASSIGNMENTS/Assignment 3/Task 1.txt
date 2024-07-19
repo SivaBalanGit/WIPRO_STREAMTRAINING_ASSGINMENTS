@@ -1,0 +1,59 @@
+Step 1: Fork an Existing Repository
+
+* Go to the original repository you want to fork (you can simulate this by imagining a public repository on a platform like GitHub).
+* Click on the "Fork" button in the top-right corner of the repository's page.
+* This action will create a copy of the repository under your GitHub account.
+
+Step 2: Clone the Forked Repository Locally
+
+git clone <url_of_your_forked_repository>
+cd <repository_name>
+
+
+Step 3: Manage Updates from the Original Repository
+
+# Add the original repository as a remote
+git remote add upstream <url_of_original_repository>
+
+# Fetch updates from the original repository
+git fetch upstream
+
+# Merge the updates into your local main branch
+git merge upstream/main
+
+
+Step 4: Make Changes and Commit
+
+Make changes to the code locally, stage them, and commit them to your local repository.
+
+# Make changes to the code
+
+# Add changes to staging area
+git add .
+
+# Commit changes
+git commit -m "Description of changes"
+
+
+Step 5: Push Changes to Your Forked Repository
+
+git push origin main
+
+
+Step 6: Create a Pull Request to the Original Repository
+
+1. Go to your forked repository on GitHub.
+2. Click on the "Pull Requests" tab.
+3. Click on the "New pull request" button.
+4. Select the original repository as the base repository and your forked repository as the head repository.
+5. Review the changes and create the pull request.
+
+Step 7: Outline a Simple Code Review Process
+
+* Review Pull Request: The original repository owner or a designated reviewer should review the pull request to ensure that the changes are in line with project requirements and coding standards.
+
+* Provide Feedback: If necessary, provide feedback on the pull request, suggesting improvements or pointing out any issues.
+
+* Address Feedback: The contributor should address any feedback provided by making necessary changes to the code.
+
+* Approve and Merge: Once the changes are satisfactory, the pull request can be approved and merged into the original repository.

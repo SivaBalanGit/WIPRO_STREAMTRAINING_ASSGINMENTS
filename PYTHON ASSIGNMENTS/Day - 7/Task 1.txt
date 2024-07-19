@@ -1,0 +1,20 @@
+Task 1: Write SQL queries to create a table named 'Users' and insert multiple records into it.
+
+answer :-
+
+-- Create Users table
+CREATE TABLE Users (
+    user_id INT PRIMARY KEY,
+    username VARCHAR(50),
+    email VARCHAR(100),
+    age INT
+);
+
+-- Insert records into Users table
+INSERT INTO Users (user_id, username, email, age) VALUES
+(1, 'JohnDoe', 'john7360@gmail.com', 25),
+(2, 'JaneDoe', 'jane123@gmail.com', 30),
+(3, 'AliceSmith', 'alice3423@gmail.com', 28),
+(4, 'BobJohnson', 'bob01@gmail.com', 35),
+(5, 'EmilyBrown', 'emily89@gmail.com', 22);
+

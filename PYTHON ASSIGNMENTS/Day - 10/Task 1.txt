@@ -1,0 +1,41 @@
+Task 1: 
+
+Create a Python script that uses OAuth authentication to connect to a RESTful service.
+
+answer :-
+
+
+import requests
+
+def main():
+    # OAuth credentials
+    client_key = "your_client_key"
+    client_secret = "your_client_secret"
+    resource_owner_key = "resource_owner_key"
+    resource_owner_secret = "resource_owner_secret"
+
+    # RESTful service endpoint
+    url = "http://example.com/api"
+
+    try:
+        # Creating OAuth headers
+        headers = {
+            "Authorization": "OAuth oauth_consumer_key={},oauth_token={}".format(client_key, resource_owner_key)
+        }
+
+        # Sending GET request to the RESTful service
+        response = requests.get(url, headers=headers)
+
+        # Checking if request was successful (status code 200)
+        if response.status_code == 200:
+            # Handling response data
+            print("Response received:")
+            print(response.text)
+        else:
+            print("Error: Failed to connect. Status code:", response.status_code)
+
+    except Exception as e:
+        print("Error: Failed to connect:", e)
+
+if __name__ == "__main__":
+    main()

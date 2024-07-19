@@ -1,0 +1,43 @@
+Assignment 1: 
+
+SDLC Overview - Create a one-page infographic that outlines the SDLC phases (Requirements, Design, Implementation, Testing, Deployment), highlighting the importance of each phase and how they interconnect.
+
+Introduction
+Definition: The SDLC is a structured process used by the software industry to design, develop, and test high-quality software. It ensures that the final product meets customer expectations and is delivered on time and within budget.
+
+Phases of SDLC
+1. Requirements
+
+Purpose: Gather and analyze business requirements.
+Activities: Meetings with stakeholders, documentation of needs, feasibility analysis.
+Importance: Ensures the project starts with a clear understanding of what is needed, reducing the risk of missing critical requirements.
+Visual Element: Icon of a checklist or a meeting.
+
+2. Design
+
+Purpose: Plan the architecture and design of the system.
+Activities: Creation of design documents, system architecture, data models, and interface designs.
+Importance: Provides a blueprint for developers, ensuring all components integrate smoothly.
+Visual Element: Icon of blueprints or a drafting table.
+
+3. Implementation
+
+Purpose: Develop the actual software code.
+Activities: Writing code, code reviews, version control management.
+Importance: Turns design documents into a functional software application.
+Visual Element: Icon of a computer or coding symbols.
+
+4. Testing
+
+Purpose: Verify that the software works as intended.
+Activities: Unit testing, integration testing, system testing, user acceptance testing (UAT).
+Importance: Identifies and resolves defects, ensuring software quality and performance.
+Visual Element: Icon of a magnifying glass or a bug.
+
+5. Deployment
+
+Purpose: Release the software to production.
+Activities: Installing the software in the production environment, user training, deployment scripts.
+Importance: Ensures that the software is correctly installed and operational in the live environment.
+Visual Element: Icon of a rocket or a server.
+

@@ -1,0 +1,39 @@
+Task 2: 
+
+Write a Python script to send a POST request with JSON data and handle the JSON response.
+
+answer :-
+
+import requests
+import json
+
+def main():
+    # URL to which the POST request will be sent
+    url = "http://example.com/api"
+
+    # JSON data to be sent in the POST request
+    json_data = {
+        "key1": "value1",
+        "key2": "value2"
+    }
+
+    try:
+        # Sending POST request with JSON data
+        response = requests.post(url, json=json_data)
+
+        # Checking if request was successful (status code 200)
+        if response.status_code == 200:
+            # Parsing JSON response
+            response_data = response.json()
+
+            # Handling response data
+            print("Response received:")
+            print(json.dumps(response_data, indent=4))
+        else:
+            print("Error: Failed to send POST request. Status code:", response.status_code)
+
+    except requests.exceptions.RequestException as e:
+        print("Error: Failed to send POST request:", e)
+
+if __name__ == "__main__":
+    main()

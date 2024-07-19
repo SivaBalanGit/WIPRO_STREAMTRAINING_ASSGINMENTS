@@ -1,0 +1,67 @@
+Assignment 4: 
+Scrum Framework Overview - Prepare a one-page cheat sheet on the Scrum framework that includes roles, responsibilities, artifacts, and ceremonies. Provide a brief example of a Sprint task list for the earlier mentioned app project.
+
+
+Scrum Framework Cheat Sheet
+
+Roles and Responsibilities
+
+1. Product Owner
+
+Responsibilities: Defines the product vision, manages the product backlog, prioritizes features, ensures the team delivers value to the business.
+
+2. Scrum Master
+
+Responsibilities: Facilitates Scrum processes, removes impediments, ensures the team follows Scrum practices, fosters an environment for high performance.
+
+3.Development Team
+
+Responsibilities: Self-organizes to complete work, delivers increments of product, collaborates on tasks, maintains quality and productivity.
+
+Artifacts
+
+1. Product Backlog
+
+Description: A prioritized list of features, enhancements, and fixes for the product.
+Maintained by: Product Owner
+
+2. Sprint Backlog
+
+Description: A subset of the product backlog items selected for the current sprint, along with a plan for delivering them.
+Maintained by: Development Team
+
+3. Increment
+
+Description: A usable, potentially shippable product slice completed during a sprint.
+Maintained by: Development Team
+
+4. Definition of Done
+
+Description: A shared understanding of what it means for work to be complete, ensuring quality and consistency.
+Maintained by: Scrum Team
+
+Ceremonies
+
+1. Sprint Planning
+
+Purpose: Define the sprint goal and select backlog items to work on during the sprint.
+Participants: Scrum Team
+Outcome: Sprint Backlog and Sprint Goal
+
+2. Daily Scrum
+
+Purpose: Synchronize team activities, discuss progress, and identify impediments.
+Participants: Development Team
+Outcome: Updated task statuses and plan for the day
+
+3. Sprint Review
+
+Purpose: Inspect the increment and adapt the product backlog based on feedback.
+Participants: Scrum Team, Stakeholders
+Outcome: Feedback on the product increment, updated Product Backlog
+
+4. Sprint Retrospective
+
+Purpose: Reflect on the sprint to improve processes and team dynamics.
+Participants: Scrum Team
+Outcome: Actionable improvement plans

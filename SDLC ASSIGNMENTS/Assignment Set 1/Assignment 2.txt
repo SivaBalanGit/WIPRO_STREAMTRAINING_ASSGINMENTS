@@ -1,0 +1,62 @@
+Assignment 2: 
+Requirements Gathering - Conduct a 30-minute mock interview to gather requirements for a fictional app that helps organize community events. Summarize the requirements and how you would document and trace them in a one-page brief.
+
+
+Mock Interview Summary: Requirements Gathering for Community Event Organizer App
+
+1. Key Requirements:
+
+User Roles and Permissions:
+
+Organizers: Create and manage events, send invitations, and track RSVPs.
+Participants: Browse and join events, receive notifications, and communicate with organizers.
+Admins: Oversee app usage, manage user permissions, and handle disputes.
+
+Event Creation and Management:
+
+Event Details: Title, description, date, time, location, and categories (e.g., sports, cultural, educational).
+Invitation Management: Send invites via email or SMS, track RSVP status.
+Event Updates: Notify participants of any changes or updates to the event.
+User Interaction and Communication:
+
+Messaging System: Allow participants to message organizers and other participants.
+Comments Section: Enable users to leave comments on event pages.
+Feedback and Reviews: Collect feedback and reviews after the event.
+Notifications and Reminders:
+
+Push Notifications: Alert users of upcoming events, changes, and reminders.
+Email Notifications: Send email reminders and updates to users.
+Search and Discovery:
+
+Event Search: Filter events by date, category, location, and keywords.
+Recommendations: Suggest events based on user interests and past participation.
+User Profile and Preferences:
+
+Profile Management: Allow users to create and manage their profiles, including personal information and event preferences.
+Saved Events: Enable users to save and bookmark events for future reference.
+Analytics and Reporting:
+
+Event Analytics: Provide organizers with data on attendance, engagement, and feedback.
+User Activity Reports: Track user activity and interactions within the app.
+
+2. Documentation and Tracing:
+
+Requirements Document:
+
+Title Page: Project title, document version, date, and author.
+Introduction: Brief description of the app and its purpose.
+Scope: Define what is included and excluded from the project.
+User Stories: Detailed user stories for each requirement, including user roles and expected outcomes.
+Functional Requirements: Specific functionalities the app must have, derived from user stories.
+Non-Functional Requirements: Performance, security, usability, and scalability requirements.
+Wireframes and Mockups: Visual representations of the app’s interface and user flow.
+Traceability Matrix:
+
+Purpose: To ensure each requirement is traced throughout the project lifecycle.
+Structure:
+Requirement ID: Unique identifier for each requirement.
+Description: Brief description of the requirement.
+Source: Origin of the requirement (e.g., user story, stakeholder interview).
+Priority: Importance of the requirement (high, medium, low).
+Status: Current status (e.g., drafted, in progress, completed).
+Verification: Methods to verify the requirement has been met (e.g., test case, review).

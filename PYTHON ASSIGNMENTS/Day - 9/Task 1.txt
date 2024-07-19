@@ -1,0 +1,22 @@
+Task 1: 
+
+Use the requests library in Python to make a GET request to a public API and print the response.
+
+answer :-
+
+import requests
+
+def get_api_response(url):
+    response = requests.get(url)
+    if response.status_code == 200:
+        print("Response from API:")
+        print(response.text)
+    else:
+        print("Error: Unable to fetch data from API")
+        print("Status code:", response.status_code)
+
+# Example: Using the OpenWeatherMap API to get current weather data for London
+api_url = "http://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY"
+get_api_response(api_url)
+
+

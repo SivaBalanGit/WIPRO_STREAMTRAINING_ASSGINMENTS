@@ -1,0 +1,36 @@
+Task 2: 
+
+Write a Python program that handles HTTP errors gracefully (e.g., 404 or 500 errors) when making API requests.
+
+answer :-
+
+import requests
+
+def main():
+    # URL for API request
+    url = "http://example.com/api"
+
+    try:
+        # Sending GET request
+        response = requests.get(url)
+
+        # Checking if request was successful (status code 200)
+        if response.status_code == 200:
+            print("Request successful!")
+            # Handling response data
+            print(response.json())  # Assuming JSON response
+        else:
+            # Handling HTTP errors gracefully
+            print("Error:", response.status_code)
+            if response.status_code == 404:
+                print("Resource not found.")
+            elif response.status_code == 500:
+                print("Internal server error.")
+            # Add more conditions as needed
+
+    except requests.exceptions.RequestException as e:
+        print("Error: Failed to connect:", e)
+
+if __name__ == "__main__":
+    main()
+

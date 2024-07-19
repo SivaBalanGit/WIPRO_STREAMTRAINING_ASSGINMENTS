@@ -1,0 +1,13 @@
+
+my_list = [1, 2, 3, 4, 5]
+
+print("Original List:", my_list)
+
+# Slice from index 1 to index 3
+sliced_list = my_list[1:3]
+print("Sliced List:", sliced_list)
+
+# Append new elements
+my_list.append(6)
+my_list.append(7)
+print("Updated List after Appending New Elements:", my_list)

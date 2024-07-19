@@ -1,0 +1,90 @@
+Assignment 1: 
+
+Agile Project Planning - Create a one-page project plan for a new software feature using Agile planning techniques. Include backlog items with estimated story points and a prioritized list of user stories.
+
+Agile Project Plan for New Software Feature: Event Notifications
+
+Title: Agile Project Plan - Event Notifications Feature
+
+Project Overview: Implement a feature that allows users to receive notifications about upcoming events, changes, and reminders within the community event app.
+
+Product Backlog Items
+
+1. User Story 1: As a user, I want to receive notifications for upcoming events I have joined so that I don't miss them.
+
+Story Points: 5
+
+2. User Story 2: As an organizer, I want to send notifications to participants about changes in event details so that everyone is informed.
+
+Story Points: 8
+
+3. User Story 3: As a user, I want to manage my notification preferences so that I only receive relevant updates.
+
+Story Points: 3
+
+4. User Story 4: As a user, I want to see a list of all notifications I've received so that I can keep track of event updates.
+
+Story Points: 5
+
+5.User Story 5: As a user, I want to receive reminders a day before an event so that I can prepare accordingly.
+
+Story Points: 3
+
+
+Sprint Planning: Prioritized List of User Stories
+
+Sprint 1:
+
+1. User Story 1: Receive notifications for upcoming events
+
+Tasks:
+Design notification system architecture (2 Story Points)
+Implement backend for scheduling notifications (2 Story Points)
+Develop frontend UI for displaying notifications (1 Story Point)
+
+2. User Story 3: Manage notification preferences
+
+Tasks:
+Design preference management interface (1 Story Point)
+Implement backend for saving preferences (1 Story Point)
+Develop frontend UI for preference settings (1 Story Point)
+
+Sprint 2:
+
+1. User Story 2: Send notifications about changes in event details
+
+Tasks:
+Implement backend for change notification triggers (3 Story Points)
+Develop frontend UI for organizers to send updates (3 Story Points)
+Integrate notifications with event change logic (2 Story Points)
+
+2. User Story 5: Receive reminders a day before an event
+
+Tasks:
+Implement reminder scheduling in backend (1 Story Point)
+Develop frontend UI for reminder settings (1 Story Point)
+Test and deploy reminder functionality (1 Story Point)
+
+Sprint 3:
+
+1. User Story 4: View list of received notifications
+
+Tasks:
+
+Design notification history interface (2 Story Points)
+Implement backend for storing notifications (2 Story Points)
+Develop frontend UI for displaying notification history (1 Story Point)
+
+Burndown Chart Tracking
+Sprint 1:
+
+Total Story Points: 8
+Daily tracking of completed tasks and remaining points.
+Sprint 2:
+
+Total Story Points: 11
+Daily tracking of completed tasks and remaining points.
+Sprint 3:
+
+Total Story Points: 5
+Daily tracking of completed tasks and remaining points.

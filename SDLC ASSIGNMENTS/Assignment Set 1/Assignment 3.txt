@@ -1,0 +1,17 @@
+Assignment 3: 
+
+Agile Principles Application - Write a two-paragraph reflection on how the Agile values of individuals and interactions, working solutions, and customer collaboration apply to the development of the community event app.
+
+Reflection on Agile Principles in Developing the Community Event App
+
+The Agile value of individuals and interactions emphasizes the importance of people and communication in the development process. For the community event app, fostering strong collaboration among team members is crucial to understanding user needs and delivering a product that meets those needs. Regular stand-ups, sprint reviews, and retrospectives create opportunities for developers, designers, and stakeholders to share insights, resolve issues, and align on project goals. 
+This constant interaction ensures that the team can quickly adapt to changing requirements and feedback, promoting a culture of continuous improvement and collective ownership of the project.
+
+Working solutions are prioritized over comprehensive documentation in Agile, meaning the focus is on delivering functional software that provides value to users. In the context of the community event app, this principle guides the team to incrementally develop and release features, allowing users to experience and benefit from the app early in the development cycle. By collaborating closely with customers, the team can gather valuable feedback to refine and enhance the app iteratively. 
+This approach not only ensures that the app evolves to meet user expectations but also fosters a strong relationship with the customer, demonstrating a commitment to delivering a product that genuinely addresses their needs and preferences.
+
+
+
+
+
+

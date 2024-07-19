@@ -1,0 +1,15 @@
+Task 2: Create a Python program that uses different variable types (integer, float, string, boolean) and prints their types.
+
+answer:-
+
+# Define variables of different types
+integer_variable = 42
+float_variable = 3.14
+string_variable = "Hello, Python!"
+boolean_variable = True
+
+# Print the variables and their types
+print("Integer variable:", integer_variable, "Type:", type(integer_variable))
+print("Float variable:", float_variable, "Type:", type(float_variable))
+print("String variable:", string_variable, "Type:", type(string_variable))
+print("Boolean variable:", boolean_variable, "Type:", type(boolean_variable))

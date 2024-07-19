@@ -1,0 +1,66 @@
+Assignment 2: Daily Standup Simulation - Write a script for a Daily Standup meeting for a development team working on the software feature from Assignment 1. 
+Address a common challenge and incorporate a solution into the communication flow.
+
+Daily Standup Meeting Script
+Project: Event Notifications Feature
+
+Participants: Product Owner (PO), Scrum Master (SM), Development Team Members (Dev A, Dev B, Dev C, Dev D)
+
+Time: 9:00 AM
+
+Scrum Master (SM): Good morning, everyone! Let’s start our daily standup. We’ll go through what you did yesterday, what you plan to do today, and any blockers or challenges you're facing. Let's start with you, Dev A.
+
+Dev A: Good morning!
+
+Yesterday: I completed the design of the notification system architecture.
+Today: I’ll begin implementing the backend for scheduling notifications.
+Blockers: I had some trouble with setting up the notification scheduling. I’m not sure if the current approach will handle high volumes of notifications efficiently.
+SM: Noted, Dev A. Let’s discuss this further after the standup to brainstorm some solutions.
+
+Dev B: Hi, everyone!
+
+Yesterday: I worked on the preference management interface and completed the design.
+Today: I’ll start implementing the backend for saving notification preferences.
+Blockers: No blockers for now.
+SM: Great, thank you, Dev B. How about you, Dev C?
+
+Dev C: Good morning!
+
+Yesterday: I began developing the frontend UI for displaying notifications.
+Today: I’ll continue with the UI development and aim to finish it by the end of the day.
+Blockers: I encountered an issue with the notification display layout. It's not rendering correctly on different screen sizes.
+SM: Thanks, Dev C. Let’s discuss this after the standup as well and see if we can find a solution.
+
+Dev D: Hello, everyone!
+
+Yesterday: I started working on the backend implementation for change notification triggers.
+Today: I’ll continue with the backend work and aim to integrate it with the event change logic.
+Blockers: I’m running into some difficulties with the integration. The event change logic isn’t triggering the notifications as expected.
+SM: Thank you, Dev D. We’ll address this right after the standup to ensure you have what you need to move forward.
+
+SM: Alright, thank you, everyone. It sounds like we have a few challenges to tackle today.
+
+Notification Scheduling Issue (Dev A): We’ll have a quick meeting right after this to discuss possible solutions for handling high volumes of notifications.
+UI Layout Issue (Dev C): We can brainstorm some responsive design techniques to solve the rendering problem.
+Event Change Notification Trigger (Dev D): Let’s review the event change logic and ensure it correctly integrates with the notification system.
+PO: Also, a quick reminder to keep the user stories updated with any changes or insights you gather while working on your tasks. It helps keep the backlog refined and the rest of the team informed.
+
+SM: Perfect, thanks for the reminder, PO. Let’s address the blockers and keep the progress going. Have a productive day, everyone!
+
+All: Thanks, you too!
+
+(After the Standup Meeting Discussion)
+
+SM: Alright, Dev A, let’s start with you. For the high volume of notifications, we could consider batching the notifications or using a message queue system like RabbitMQ. What do you think?
+
+Dev A: That sounds like a good approach. I’ll look into setting up RabbitMQ and see if that resolves the issue.
+
+SM: Great! Now, Dev C, for the UI layout issue, let’s review the CSS and consider using a framework like Bootstrap to ensure responsiveness.
+
+Dev C: I’ll integrate Bootstrap and adjust the layout accordingly. Thanks for the suggestion!
+
+SM: Perfect. And Dev D, for the event change trigger issue, let’s revisit the logic and ensure the event change triggers the notification function correctly.
+
+Dev D: I’ll review the logic and add some debug points to trace where it’s failing. I’ll update you by midday.
+
+SM: Excellent. Thanks, everyone. Let’s reconvene later if needed. Have a great day!

@@ -1,0 +1,24 @@
+Assignment 1: Text Processing and Automation - Write a bash script that uses grep, sed, and awk to list all login attemtps to a linux system, extract attempted user and error messages to a separate file..
+
+#!/bin/bash
+
+# Log file path
+LOG_FILE="/var/log/auth.log"
+
+# Output file paths
+ATTEMPTS_FILE="login_attempts.txt"
+ERRORS_FILE="login_errors.txt"
+
+# Use grep to filter login attempts and save to a temporary file
+grep "Failed password" "$LOG_FILE" > temp_attempts.log
+
+# Use awk to extract attempted user and error message from the temporary file
+awk '{print $1, $2, $3, $9, $11}' temp_attempts.log > "$ATTEMPTS_FILE"
+
+# Use sed to extract error message from the temporary file and save to a separate file
+sed 's/.*Failed password for \(.*\) from \(.*\) port .*$/\1 - \2/' temp_attempts.log > "$ERRORS_FILE"
+
+# Remove the temporary file
+rm temp_attempts.log
+
+echo "Login attempts and errors extracted successfully."
